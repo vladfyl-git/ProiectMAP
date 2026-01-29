@@ -1,16 +1,14 @@
-# ProiectMAP
-🚦 Simulator de Trafic Rutier (Discrete Event Simulation)
-Acest proiect este un instrument de modelare a sistemelor de transport, creat pentru a simula congestia rutieră la un semafor. Utilizatorul poate experimenta cu fluxuri de trafic, număr de benzi și temporizări ale semafoarelor pentru a observa impactul asupra timpilor de așteptare.
+## ProiectMAP
+#TrafficSim: Simulator de Trafic Rutier
+Acest proiect este un simulator de trafic bazat pe evenimente discrete, creat pentru a modela comportamentul vehiculelor într-o intersecție dirijată de semafoare. Proiectul explorează concepte de teoria cozilor, procese stocastice și optimizarea fluxurilor urbane.
 
-🎯 Ce învață acest proiect
-Simulări discrete: Modelarea timpului pas cu pas.
+#Caracteristici Principale
+Simulare Discretă: Modelarea timpului secundă cu secundă pentru precizie maximă.
 
-Teoria cozilor: Gestionarea vehiculelor într-un sistem de tip FIFO (First-In, First-Out).
+Generare Probabilistică: Sosirea mașinilor urmează o rată configurabilă (proces de tip Poisson).
 
-Generare stocastică: Folosirea distribuțiilor probabilistice pentru sosirea mașinilor.
+Vizualizare ASCII: Animație în timp real direct în terminal pentru monitorizarea cozilor.
 
-Optimizare: Algoritmi simpli pentru găsirea timpului optim de verde.
+Algoritm de Optimizare: Calcularea automată a timpului ideal de "verde" pentru a reduce congestia.
 
-🚀 Instalare și Rulare
-Cerințe
-Python 3.x (Nu sunt necesare biblioteci externe).
+Analiză Comparativă: Testarea eficienței infrastructurii prin compararea numărului de benzi.
