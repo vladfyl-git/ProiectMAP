@@ -89,3 +89,11 @@ Se observă cum timpul de așteptare scade drastic odată cu adăugarea benzilor
 ## 💻 Cerințe Tehnice
 * Limbaj: Python 3
 * Biblioteci standard: `time`, `random`, `argparse`, `collections` (nu necesită instalări externe).
+
+## 🐋 Docker
+* Pentru pull: docker pull vladfyl/simulator:v2
+* Pentru a rula avem:
+* docker run -it vladfyl/simulator:v2 --cars 100 --light_cycle 30 --lanes 1 --viz
+* docker run -it vladfyl/simulator:v2 --cars 500 --light_cycle 30
+* docker run -it vladfyl/simulator:v2 --optimize --cars 200
+* docker run -it vladfyl/simulator:v2 --lanes 2 --compare "1,2,3"
